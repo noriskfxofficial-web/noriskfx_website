@@ -1,0 +1,17 @@
+{
+  "name": "noriskfx-v18-institutional-portal",
+  "version": "18.0.0",
+  "private": true,
+  "description": "No Risk FX institutional website, full CMS admin, and client portal for Netlify Functions + Blobs.",
+  "scripts": {
+    "build": "node -e \"console.log('No Risk FX v18 static build ready')\"",
+    "dev": "netlify dev",
+    "check": "node --check netlify/functions/api.js"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^10.7.6"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
