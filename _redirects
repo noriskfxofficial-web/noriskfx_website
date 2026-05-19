@@ -1,2 +1,4 @@
+/assets/* /:splat 200
 /api/* /.netlify/functions/api/:splat 200
 /admin /admin.html 200
+/portal /client-portal.html 200
